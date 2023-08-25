@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF448FB2A98DB89003756CF /* SpeakBUDDY_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF448FA2A98DB89003756CF /* SpeakBUDDY_challengeApp.swift */; };
+		FAF448FD2A98DB89003756CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF448FC2A98DB89003756CF /* ContentView.swift */; };
+		FAF448FF2A98DB89003756CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF448FE2A98DB89003756CF /* Assets.xcassets */; };
+		FAF449022A98DB89003756CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF449012A98DB89003756CF /* Preview Assets.xcassets */; };
+		FAF4490C2A98DB89003756CF /* SpeakBUDDY_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4490B2A98DB89003756CF /* SpeakBUDDY_challengeTests.swift */; };
+		FAF449162A98DB89003756CF /* SpeakBUDDY_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF449152A98DB89003756CF /* SpeakBUDDY_challengeUITests.swift */; };
+		FAF449182A98DB89003756CF /* SpeakBUDDY_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF449172A98DB89003756CF /* SpeakBUDDY_challengeUITestsLaunchTests.swift */; };
+		FAF449262A98DC50003756CF /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF449252A98DC50003756CF /* CloseButton.swift */; };
+		FAF449292A98DC85003756CF /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF449282A98DC85003756CF /* Aliases.swift */; };
+		FAF4492B2A98DD3B003756CF /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4492A2A98DD3B003756CF /* Color+.swift */; };
+		FAF4492D2A98E048003756CF /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4492C2A98E048003756CF /* Font+.swift */; };
+		FAF4492F2A98E4B8003756CF /* SBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4492E2A98E4B8003756CF /* SBButton.swift */; };
+		FAF449322A98EA56003756CF /* graph_animation_demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = FAF449312A98EA56003756CF /* graph_animation_demo.mov */; };
+		FAF449342A98EAC4003756CF /* VideoFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF449332A98EAC4003756CF /* VideoFrame.swift */; };
+		FAF449362A9910E6003756CF /* ContentViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF449352A9910E6003756CF /* ContentViewVM.swift */; };
+		FAF449382A9912EE003756CF /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF449372A9912EE003756CF /* SelectionView.swift */; };
+		FAF4493A2A991673003756CF /* ChartFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF449392A991673003756CF /* ChartFrame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF449082A98DB89003756CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF448EF2A98DB89003756CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF448F62A98DB89003756CF;
+			remoteInfo = "SpeakBUDDY challenge";
+		};
+		FAF449122A98DB89003756CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF448EF2A98DB89003756CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF448F62A98DB89003756CF;
+			remoteInfo = "SpeakBUDDY challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF448F72A98DB89003756CF /* SpeakBUDDY challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeakBUDDY challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF448FA2A98DB89003756CF /* SpeakBUDDY_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBUDDY_challengeApp.swift; sourceTree = "<group>"; };
+		FAF448FC2A98DB89003756CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAF448FE2A98DB89003756CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF449012A98DB89003756CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAF449072A98DB89003756CF /* SpeakBUDDY challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpeakBUDDY challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF4490B2A98DB89003756CF /* SpeakBUDDY_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBUDDY_challengeTests.swift; sourceTree = "<group>"; };
+		FAF449112A98DB89003756CF /* SpeakBUDDY challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpeakBUDDY challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF449152A98DB89003756CF /* SpeakBUDDY_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBUDDY_challengeUITests.swift; sourceTree = "<group>"; };
+		FAF449172A98DB89003756CF /* SpeakBUDDY_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBUDDY_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAF449252A98DC50003756CF /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		FAF449282A98DC85003756CF /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		FAF4492A2A98DD3B003756CF /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		FAF4492C2A98E048003756CF /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
+		FAF4492E2A98E4B8003756CF /* SBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBButton.swift; sourceTree = "<group>"; };
+		FAF449312A98EA56003756CF /* graph_animation_demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = graph_animation_demo.mov; sourceTree = "<group>"; };
+		FAF449332A98EAC4003756CF /* VideoFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFrame.swift; sourceTree = "<group>"; };
+		FAF449352A9910E6003756CF /* ContentViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewVM.swift; sourceTree = "<group>"; };
+		FAF449372A9912EE003756CF /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		FAF449392A991673003756CF /* ChartFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartFrame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF448F42A98DB89003756CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF449042A98DB89003756CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF4490E2A98DB89003756CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF448EE2A98DB89003756CF = {
+			isa = PBXGroup;
+			children = (
+				FAF448F92A98DB89003756CF /* SpeakBUDDY challenge */,
+				FAF4490A2A98DB89003756CF /* SpeakBUDDY challengeTests */,
+				FAF449142A98DB89003756CF /* SpeakBUDDY challengeUITests */,
+				FAF448F82A98DB89003756CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF448F82A98DB89003756CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF448F72A98DB89003756CF /* SpeakBUDDY challenge.app */,
+				FAF449072A98DB89003756CF /* SpeakBUDDY challengeTests.xctest */,
+				FAF449112A98DB89003756CF /* SpeakBUDDY challengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF448F92A98DB89003756CF /* SpeakBUDDY challenge */ = {
+			isa = PBXGroup;
+			children = (
+				FAF448FA2A98DB89003756CF /* SpeakBUDDY_challengeApp.swift */,
+				FAF449372A9912EE003756CF /* SelectionView.swift */,
+				FAF448FC2A98DB89003756CF /* ContentView.swift */,
+				FAF449352A9910E6003756CF /* ContentViewVM.swift */,
+				FAF449272A98DC79003756CF /* Utils */,
+				FAF449242A98DBEF003756CF /* Components */,
+				FAF449302A98EA37003756CF /* Resources */,
+				FAF449002A98DB89003756CF /* Preview Content */,
+			);
+			path = "SpeakBUDDY challenge";
+			sourceTree = "<group>";
+		};
+		FAF449002A98DB89003756CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAF449012A98DB89003756CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAF4490A2A98DB89003756CF /* SpeakBUDDY challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4490B2A98DB89003756CF /* SpeakBUDDY_challengeTests.swift */,
+			);
+			path = "SpeakBUDDY challengeTests";
+			sourceTree = "<group>";
+		};
+		FAF449142A98DB89003756CF /* SpeakBUDDY challengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF449152A98DB89003756CF /* SpeakBUDDY_challengeUITests.swift */,
+				FAF449172A98DB89003756CF /* SpeakBUDDY_challengeUITestsLaunchTests.swift */,
+			);
+			path = "SpeakBUDDY challengeUITests";
+			sourceTree = "<group>";
+		};
+		FAF449242A98DBEF003756CF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAF449252A98DC50003756CF /* CloseButton.swift */,
+				FAF4492E2A98E4B8003756CF /* SBButton.swift */,
+				FAF449332A98EAC4003756CF /* VideoFrame.swift */,
+				FAF449392A991673003756CF /* ChartFrame.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FAF449272A98DC79003756CF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAF449282A98DC85003756CF /* Aliases.swift */,
+				FAF4492A2A98DD3B003756CF /* Color+.swift */,
+				FAF4492C2A98E048003756CF /* Font+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAF449302A98EA37003756CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAF448FE2A98DB89003756CF /* Assets.xcassets */,
+				FAF449312A98EA56003756CF /* graph_animation_demo.mov */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF448F62A98DB89003756CF /* SpeakBUDDY challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF4491B2A98DB89003756CF /* Build configuration list for PBXNativeTarget "SpeakBUDDY challenge" */;
+			buildPhases = (
+				FAF448F32A98DB89003756CF /* Sources */,
+				FAF448F42A98DB89003756CF /* Frameworks */,
+				FAF448F52A98DB89003756CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpeakBUDDY challenge";
+			productName = "SpeakBUDDY challenge";
+			productReference = FAF448F72A98DB89003756CF /* SpeakBUDDY challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF449062A98DB89003756CF /* SpeakBUDDY challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF4491E2A98DB89003756CF /* Build configuration list for PBXNativeTarget "SpeakBUDDY challengeTests" */;
+			buildPhases = (
+				FAF449032A98DB89003756CF /* Sources */,
+				FAF449042A98DB89003756CF /* Frameworks */,
+				FAF449052A98DB89003756CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF449092A98DB89003756CF /* PBXTargetDependency */,
+			);
+			name = "SpeakBUDDY challengeTests";
+			productName = "SpeakBUDDY challengeTests";
+			productReference = FAF449072A98DB89003756CF /* SpeakBUDDY challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF449102A98DB89003756CF /* SpeakBUDDY challengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF449212A98DB89003756CF /* Build configuration list for PBXNativeTarget "SpeakBUDDY challengeUITests" */;
+			buildPhases = (
+				FAF4490D2A98DB89003756CF /* Sources */,
+				FAF4490E2A98DB89003756CF /* Frameworks */,
+				FAF4490F2A98DB89003756CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF449132A98DB89003756CF /* PBXTargetDependency */,
+			);
+			name = "SpeakBUDDY challengeUITests";
+			productName = "SpeakBUDDY challengeUITests";
+			productReference = FAF449112A98DB89003756CF /* SpeakBUDDY challengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF448EF2A98DB89003756CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FAF448F62A98DB89003756CF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FAF449062A98DB89003756CF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FAF448F62A98DB89003756CF;
+					};
+					FAF449102A98DB89003756CF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FAF448F62A98DB89003756CF;
+					};
+				};
+			};
+			buildConfigurationList = FAF448F22A98DB89003756CF /* Build configuration list for PBXProject "SpeakBUDDY challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF448EE2A98DB89003756CF;
+			productRefGroup = FAF448F82A98DB89003756CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF448F62A98DB89003756CF /* SpeakBUDDY challenge */,
+				FAF449062A98DB89003756CF /* SpeakBUDDY challengeTests */,
+				FAF449102A98DB89003756CF /* SpeakBUDDY challengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF448F52A98DB89003756CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF449322A98EA56003756CF /* graph_animation_demo.mov in Resources */,
+				FAF449022A98DB89003756CF /* Preview Assets.xcassets in Resources */,
+				FAF448FF2A98DB89003756CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF449052A98DB89003756CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF4490F2A98DB89003756CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF448F32A98DB89003756CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF449262A98DC50003756CF /* CloseButton.swift in Sources */,
+				FAF448FD2A98DB89003756CF /* ContentView.swift in Sources */,
+				FAF4492D2A98E048003756CF /* Font+.swift in Sources */,
+				FAF449292A98DC85003756CF /* Aliases.swift in Sources */,
+				FAF4492B2A98DD3B003756CF /* Color+.swift in Sources */,
+				FAF449342A98EAC4003756CF /* VideoFrame.swift in Sources */,
+				FAF449362A9910E6003756CF /* ContentViewVM.swift in Sources */,
+				FAF4493A2A991673003756CF /* ChartFrame.swift in Sources */,
+				FAF4492F2A98E4B8003756CF /* SBButton.swift in Sources */,
+				FAF448FB2A98DB89003756CF /* SpeakBUDDY_challengeApp.swift in Sources */,
+				FAF449382A9912EE003756CF /* SelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF449032A98DB89003756CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF4490C2A98DB89003756CF /* SpeakBUDDY_challengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF4490D2A98DB89003756CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF449182A98DB89003756CF /* SpeakBUDDY_challengeUITestsLaunchTests.swift in Sources */,
+				FAF449162A98DB89003756CF /* SpeakBUDDY_challengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF449092A98DB89003756CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF448F62A98DB89003756CF /* SpeakBUDDY challenge */;
+			targetProxy = FAF449082A98DB89003756CF /* PBXContainerItemProxy */;
+		};
+		FAF449132A98DB89003756CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF448F62A98DB89003756CF /* SpeakBUDDY challenge */;
+			targetProxy = FAF449122A98DB89003756CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAF449192A98DB89003756CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF4491A2A98DB89003756CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF4491C2A98DB89003756CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakBUDDY challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "speakBUDDY.SpeakBUDDY-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF4491D2A98DB89003756CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakBUDDY challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "speakBUDDY.SpeakBUDDY-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAF4491F2A98DB89003756CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "speakBUDDY.SpeakBUDDY-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakBUDDY challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakBUDDY challenge";
+			};
+			name = Debug;
+		};
+		FAF449202A98DB89003756CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "speakBUDDY.SpeakBUDDY-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakBUDDY challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakBUDDY challenge";
+			};
+			name = Release;
+		};
+		FAF449222A98DB89003756CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "speakBUDDY.SpeakBUDDY-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpeakBUDDY challenge";
+			};
+			name = Debug;
+		};
+		FAF449232A98DB89003756CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "speakBUDDY.SpeakBUDDY-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpeakBUDDY challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF448F22A98DB89003756CF /* Build configuration list for PBXProject "SpeakBUDDY challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF449192A98DB89003756CF /* Debug */,
+				FAF4491A2A98DB89003756CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF4491B2A98DB89003756CF /* Build configuration list for PBXNativeTarget "SpeakBUDDY challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF4491C2A98DB89003756CF /* Debug */,
+				FAF4491D2A98DB89003756CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF4491E2A98DB89003756CF /* Build configuration list for PBXNativeTarget "SpeakBUDDY challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF4491F2A98DB89003756CF /* Debug */,
+				FAF449202A98DB89003756CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF449212A98DB89003756CF /* Build configuration list for PBXNativeTarget "SpeakBUDDY challengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF449222A98DB89003756CF /* Debug */,
+				FAF449232A98DB89003756CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF448EF2A98DB89003756CF /* Project object */;
+}
